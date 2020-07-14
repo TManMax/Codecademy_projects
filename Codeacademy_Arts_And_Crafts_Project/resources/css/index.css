@@ -25,10 +25,7 @@ li {
     font-weight: bold;
     color: khaki;
     text-align: center;
-}
-
-h1 {
-    background: image()
+    background: url(/Codeacademy_Arts_And_Crafts_Project/pattern.jpeg);
 }
 
 /*Changing the bold element into blue*/
