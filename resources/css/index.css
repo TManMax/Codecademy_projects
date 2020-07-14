@@ -1,26 +1,60 @@
+/*Whole section of the webpage*/
+body {
+    font-family: Helvetica;
+}
+/*End of whole section of the webpage*/
+
+/*Navigation section of the webpage*/
+#nav-bar {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    font-size: 16px;
+    margin-right: 25px;
+}
+/*End of navigation section of the webpage*/
+
 #header {
-    font-family: Helvetica, Arial;
-    font-size: 100px;
+    font-family: Helvetica;
+    font-size: 50px;
     font-weight: bold;
     color: khaki;
     text-align: center;
 }
 
-.section {
-    font-family: Helvetica, Arial;
+h1 {
+    background: image()
+}
+
+/*Changing the bold element into blue*/
+b {
+    font-weight: bolder;
+    color: blue
+}
+/*End of b element*/
+
+/*Changing all h2 elements including the section and article*/
+h2 {
+    font-family: Helvetica;
     font-size: 32px;
     font-weight: bold;
     color: white;
+    background-color: blue;
 }
 
-#section_green {
+#brushes {
     background-color: mediumspringgreen;
 }
 
-#section_red {
+#frames {
     background-color: lightcoral;
 }
 
-#section_skyblue {
+#paint {
     background-color: skyblue;
 }
