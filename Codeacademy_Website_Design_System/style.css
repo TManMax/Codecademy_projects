@@ -1,0 +1,92 @@
+/*Font styles for webpage*/
+@font-face {
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+/*Entire webpage styling*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+    margin: 0px 100px 0px 100px;
+}
+
+/*header section*/ 
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: blue;
+}
+
+/*navigation styling*/
+#nav_list {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    list-style: none;
+}
+
+#nav_list li a {
+    color: black;
+    padding: 25px;
+    text-decoration: none;
+}
+/*Color container styles*/
+.section_container {
+    border: 1px solid black;
+}
+
+#colors {
+    padding: 20px;
+    text-align: center;
+}
+
+.flex_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex_container > div {
+    margin: 10px;
+    padding: 20px;
+    background-color: blue;
+    width: 150px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.color_name {
+    display: block;
+}
+
+#black {
+    background-color: #000000;
+}
+
+#maroon {
+    background-color: #800000;
+}
+
+#burlywood {
+    background-color: #deb887;
+}
+
+#saddlebrown {
+    background-color: #8b4513;
+}
+
+#steelblue {
+    background-color: #4682b4;
+}
+
+#wheat {
+    background-color: #f5deb3;
+}
