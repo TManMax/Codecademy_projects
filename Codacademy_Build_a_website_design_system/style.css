@@ -1,3 +1,12 @@
+/*css font families styling*/
+@font-face {
+    font-family: 'Hind', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+/*End of css font families*/
+
 /*The whole webpage content*/
 * {
     margin: 0;
@@ -5,10 +14,11 @@
     box-sizing: border-box;
     color: #000000;
     font-size: 16px;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 html {
-    margin: 0 2.5rem;
+   margin: 0 2rem; 
 }
 
 /*end of the whole webpage content*/
@@ -18,6 +28,16 @@ header {
     display: flex;
     justify-content: center;
     padding: 2rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px #000000;
+    background-color: #778899;
+}
+
+footer {
+    position: relative;
+    top: 60px;
+    margin-top: 20px;
+    
 }
 
 /*navigation bar for webpage*/
@@ -34,41 +54,55 @@ li a {
     padding: 14px 16px;
     font-size: 1.5rem;
     text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px #000000;
     
 }
 /*End of navigation bar for webpage*/
-
-main {
-    border: 1px solid black;
-    width: 100%;
-    height: auto;
-    margin: 1.5rem 0;
-}
-
 .h1_container {
     display: block;
     font-size: 1.8rem;
     padding: 1rem 0;
     text-align: center;
 }
+
 /*Content for color information*/
 .div_box {
-    border: 1px solid blue;
-    margin: 0.5rem;
+    position: relative;
+    top: 20px;
+    height: 350px;
+    border: 1px solid #000000;
+    box-shadow: 2px 4px 15px #000000;
 }
 
-#color_container {
-    
+#div_box_2 {
+    top: 40px;
+}
+
+#div_box_3 {
+    top: 60px;
+}
+
+#colors_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .box_content {
     border: 1px solid #000000;
+    color: #ffffff;
     width: 24%;
     height: 75px;
     display: inline-block;
     text-align: center;
     padding: 25px;
     margin: 5px 2.5px;
+}
+
+.box_content p {
+    color: #ffffff;
 }
 
 #silver_color {
@@ -118,3 +152,47 @@ main {
     background-color: #bc8f8f;
 }
 /*End of color content information section*/
+
+/*css media queries for webpage*/
+/*Mobile phone screen size*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    header {
+        text-align: center;
+    }
+
+    #colors_container {
+        display: flex;
+    }
+
+    .box_content {
+        width: 100%;
+    }
+
+    .div_box {
+        height: 1095px;
+    }
+
+    #div_box_2 {
+        height: auto;
+    }
+
+    #div_box_3 {
+        height: auto;
+    }
+}
+
+/*Table screen size*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+/*Tablet landscape screen size*/
+@media only screen and (min-width: 1024px) and (max-width: 1599px) {
+
+}
+
+/*Laptop and Desktop screen size*/
+@media only screen and (min-width: 1600px) {
+
+}
