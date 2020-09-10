@@ -4,8 +4,10 @@
     font-family: 'Noto Sans JP', sans-serif;
     font-family: 'Oxygen', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Comfortaa', cursive;
 }
-/*End of css font families*/
 
 /*The whole webpage content*/
 * {
@@ -152,6 +154,63 @@ li a {
     background-color: #bc8f8f;
 }
 /*End of color content information section*/
+
+#montserrat_font_1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+#montserrat_font_2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+#montserrat_font_3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+#montserrat_font_4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+#mukta_font_1 {
+    font-family: 'Mukta', sans-serif;
+    font-weight: 300; 
+}
+
+#mukta_font_2 {
+    font-family: 'Mukta', sans-serif;
+    font-weight: 600; 
+}
+
+#mukta_font_3 {
+    font-family: 'Mukta', sans-serif;
+    font-weight: 800; 
+}
+
+#comfortaa_font_1 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300;
+}
+
+#comfortaa_font_2 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+}
+
+#comfortaa_font_3 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
+}
+
+#comfortaa_font_4 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+}
+
+
 
 /*css media queries for webpage*/
 /*Mobile phone screen size*/
